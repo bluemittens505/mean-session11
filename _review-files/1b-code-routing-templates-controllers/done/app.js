@@ -19,11 +19,16 @@ myApp.config(function ($routeProvider) {
 myApp.controller('mainController', ['$scope', '$log', function($scope, $log) {
     
     $scope.name = 'Main';
+    $log.main = 'property from main';
+    // $log.log($log);
+    $log.log($scope);
     
 }]);
 
 myApp.controller('secondController', ['$scope', '$log', function($scope, $log) {
     
     $scope.name = 'Second';
-    
+    $log.second = 'property from second';
+    // $log.log($log);
+    $log.log($scope);
 }]);

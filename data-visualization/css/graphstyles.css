@@ -1,3 +1,19 @@
+/* Method #1 */
+@import url(icons/icons.data.svg.css);
+.comp {
+  padding-left: 20px;
+}
+
+/* Method #2 */
+/*.comp:before {
+	content: "";
+	background-image: url(../svgicons/compressed/graph.comp.svg);
+	background-size: contained;
+	background-repeat: no-repeat;
+	width: 20px;
+	height: 16px;
+	display: inline-block;
+}*/
 html {
   box-sizing: border-box;
   background-image: -webkit-linear-gradient(top, #023e54, #10aac0);
@@ -94,7 +110,7 @@ form button {
   color: #fff;
 }
 
-button[ng-disabled] {
+button[disabled] {
   background: #999;
 }
 

@@ -2,7 +2,7 @@
   "name": "Dataviz",
   "version": "1.0.0",
   "scripts": {
-    "start": "python -m SimpleHTTPServer 8090"
+    "start": "c:\\python27\\python -m SimpleHTTPServer 8090"
   },
   "author": "",
   "license": "ISC",

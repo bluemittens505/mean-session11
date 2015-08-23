@@ -1,5 +1,6 @@
 var app = angular.module('graphApp', ['ngRoute','firebase'])
-.constant('FIREBASE_URL', 'https://vizapp.firebaseio.com');
+.constant('FIREBASE_URL', 'https://test-barb.firebaseio.com/');
+// define constant above
 
 
 app.config(['$routeProvider', function($routeProvider) {
